@@ -1,0 +1,10 @@
+name: aws-synthetics-canary
+version: 1.6.0
+author: daaru
+org: daaru
+description: Deploys an AWS Synthetics Canary
+keywords: aws, serverless, synthetics, canary
+repo: https://github.com/daaru00/serverless-component-synthetics-canary
+readme: ''
+license: MIT
+main: ./src

@@ -1,0 +1,8 @@
+{
+  "name": "@serverless/aws-synthetics-canary",
+  "version": "1.0.0",
+  "main": "serverless.js",
+  "dependencies": {
+    "aws-sdk": "^2.796.0"
+  }
+}

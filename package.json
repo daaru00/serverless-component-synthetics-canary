@@ -1,0 +1,26 @@
+{
+  "name": "meta",
+  "scripts": {
+    "publish": "serverless registry publish",
+    "publish:dev": "serverless registry publish --dev",
+    "test:create": "jest ./tests/create.test.js --testEnvironment node --verbose=true --runInBand",
+    "test:start": "jest ./tests/start.test.js --testEnvironment node --verbose=true --runInBand",
+    "test:remove": "jest ./tests/remove.test.js --testEnvironment node --verbose=true --runInBand",
+    "lint": "eslint . --fix --cache"
+  },
+  "author": "Fabio Gollinucci <fbgolly@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@serverless/platform-client": "^0.24.0",
+    "aws-sdk": "^2.795.0",
+    "babel-eslint": "9.0.0",
+    "dotenv": "^8.2.0",
+    "eslint": "5.6.0",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^25.2.0",
+    "prettier": "^1.18.2",
+    "serverless": "^1.83.0"
+  }
+}
